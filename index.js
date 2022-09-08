@@ -21,6 +21,7 @@ function operation () {
     .then((answer) => {
         const action = answer['question']
 
+        
     if( action === 'Criar Conta') {
         createAccount()
     }
